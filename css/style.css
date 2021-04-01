@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'interstate';
+  src: URL('../fonts/interstate.ttf') format('truetype');
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-size: 24px;
+  font-family: 'interstate';
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.uy,
+.santaTeresa,
+.puntaDiablo,
+.valizas,
+.caboPolonio,
+.lightHouse {
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  /*
+  parallax effect 
+  */
+  background-attachment: fixed;
+}
+
+.uy {
+  background-image: url('../img/UY.jpg');
+  min-height: 100%;
+}
+
+.santaTeresa {
+  background-image: url('../img/SantaTeresa.JPG');
+  min-height: 400px;
+}
+.puntaDiablo {
+  background-image: url('../img/PdelDiablo.JPG');
+  min-height: 400px;
+}
+.valizas {
+  background-image: url('../img/Valizas.JPG');
+  min-height: 400px;
+}
+.caboPolonio {
+  background-image: url('../img/CaboPolonio.JPG');
+  min-height: 400px;
+}
+.lightHouse {
+  background-image: url('../img/Lighthouse.JPG');
+  min-height: 100%;
+}
+
+section {
+  text-align: center;
+  padding: 50px 80px;
+  background-color: #f4f4f4;
+  color: #6e834f;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #54605a;
+  font-size: 30px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+
+.text .border1 {
+  background-color: #111;
+  padding: 15px;
+}
+.text .border2 {
+  background-color: #111;
+  opacity: 75%;
+  padding: 15px;
+}
+
+a {
+  text-decoration: underline;
+  color: #54605a;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  padding: 0;
+  text-align: center;
+  color: #54605a;
+  font-size: 10px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  background-color: #f4f4f4;
+}
+
+footer a {
+  text-decoration: none;
+  color: #54605a;
+}
