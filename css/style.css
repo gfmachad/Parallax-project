@@ -85,6 +85,10 @@ section {
   padding: 15px;
 }
 
+p{
+  margin-top:20px;
+}
+
 a {
   text-decoration: underline;
   color: #54605a;
